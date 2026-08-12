@@ -1,0 +1,6 @@
+# dsh-daily-progress bundle patch. The browser half is discovered through the
+# package dsh.client manifest; this row mounts the host half into the
+# composition (host-plane: storage-domain facility, HTTP routes).
+- insert:
+    - id: daily-progress
+      name: dsh-daily-progress
