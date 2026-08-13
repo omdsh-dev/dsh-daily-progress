@@ -5,7 +5,6 @@
 - **host 半**（`src/` → `lib/index.js`）：`daily_progress` 存储域（每日计划持久化于宿主 storage-domain 的 json 后端）+ 完成率 / streak / 周率指标 + 自有 HTTP 路由（`/daily-progress/state`、`/daily-progress/mutate`，loopback-only）。
 - **client 半**（P1 起，`src/client/` → `lib/client.js`）：`conversation.input.dock` 温度计 widget + 两栏计划面板（Modal）+ 21:00 浏览器提醒。
 
-> 内测插件：仓库 PRIVATE，未经许可请勿外传。
 
 ## 已确认口径
 

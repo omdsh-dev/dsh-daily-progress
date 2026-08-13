@@ -7,7 +7,7 @@
  * timezone offsets can never shift a day boundary — the same trap that bit
  * pon-honor-system (UTC formatting vs local-day comparison) is avoided by
  * treating date keys as opaque calendar labels.
- * @module @dsh-external/dsh-daily-progress/metrics
+ * @module dsh-daily-progress/metrics
  */
 
 import type { DayPlan, WeekCell } from './types.ts'

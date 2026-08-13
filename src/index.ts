@@ -10,7 +10,7 @@
  * Export shape: function/namespace plugin (name/inject/apply, NO default —
  * a stray `export default` would collapse the module via the Loader's
  * unwrapExports and drop `inject`).
- * @module @dsh-external/dsh-daily-progress
+ * @module dsh-daily-progress
  */
 
 import type { Context } from 'cordis'

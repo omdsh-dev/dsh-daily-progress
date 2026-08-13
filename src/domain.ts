@@ -5,7 +5,7 @@
  *
  * Record keys are `<scope>:<date>` (see calendar.ts); V1 uses scope
  * `'default'`.
- * @module @dsh-external/dsh-daily-progress/domain
+ * @module dsh-daily-progress/domain
  */
 
 import z from 'zod'

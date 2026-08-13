@@ -12,7 +12,7 @@
  *
  * Record discipline: domain records are immutable — every mutation builds a
  * NEW DayPlan object and stores it; nothing is edited in place.
- * @module @dsh-external/dsh-daily-progress/routes
+ * @module dsh-daily-progress/routes
  */
 
 import type { IncomingMessage, ServerResponse } from 'node:http'

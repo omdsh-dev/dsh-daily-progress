@@ -3,7 +3,7 @@
  * unit tests and browser-adjacent code alike. All date keys are the user's
  * LOCAL calendar dates (YYYY-MM-DD strings) — opaque labels, never UTC
  * instants.
- * @module @dsh-external/dsh-daily-progress/calendar
+ * @module dsh-daily-progress/calendar
  */
 
 export const DATE_RE = /^\d{4}-\d{2}-\d{2}$/
