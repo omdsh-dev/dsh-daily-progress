@@ -4,7 +4,7 @@
  * running DSH process loads from profiles/node_modules), with the REAL json
  * storage backend writing to a scratch directory.
  *
- * Run: NODE_PATH=/home/lzk22/.dsh/profiles/node_modules node probe.mjs
+ * Run: NODE_PATH=$DSH_HOME/profiles/node_modules node probe.mjs
  */
 
 import { mkdtempSync, rmSync } from 'node:fs'
