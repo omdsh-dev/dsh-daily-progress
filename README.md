@@ -1,5 +1,7 @@
 # dsh-daily-progress
 
+**Author / Maintainer:** [@Zacklinkk](https://github.com/Zacklinkk)
+
 每日进度成就系统（DSH Web 插件，双半架构）：
 
 - **host 半**（`src/` → `lib/index.js`）：`daily_progress` 存储域（每日计划持久化于宿主 storage-domain 的 json 后端）+ 完成率 / streak / 周率指标 + 自有 HTTP 路由（`/daily-progress/state`、`/daily-progress/mutate`，loopback-only）。
